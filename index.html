@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark  bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- Fin NavBar -->
+    </header>
+    <!-- Début container 1 -->
+    <section class="container p-5">
+        <div class="mx-5">
+            <p class="fs-1">Nous nous trouvons ici dans un contenair qui est limiter en largeur <span
+                    class="badge bg-success">Et
+                    ceci est un badge </span></p>
+            </p>
+            <p class="fs-2">Voila une collection de différent type de badge</p>
+            <span class="badge bg-primary">Primary est la couleur bleu</span>
+            <span class="badge bg-danger">Danger est la couleur rouge</span>
+            <span class="badge bg-warning text-dark">Warning est la couleur jaune Lorem ipsum dolor sit.</span>
+            <!-- Centre s1 -->
+            <section class="container-fluid text-center ">
+                <div class="row">
+                    <div class="col-1">
+                    </div>
+                    <div class="col-10 ">
+                        <p class="fs-1">Vous avez ici un Container fluid</p>
+                        <p class="">mais qu'est ce que cela veut dire ? Quel est la différence ? et pourquoi le texte
+                            est
+                            soudainement centré</p>
+                        <div class="alert alert-danger" role="alert">
+                            <b>Recherche dans la doc... LA DOOOOOOOOOOOOOOC</b>
+                        </div>
+                    </div>
+                    <div class="col-1">
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </section>
+    <!-- Fin container 1 -->
+    <!-- Debut container 2 -->
+    <section class=" d-flex flex-column align-items-center text-center text-white bg-dark p-5">
+        <p class="fs-2 m-0">Voici une section avec un fond noir et du texte blanc.</p>
+        <p class="fs-2 m-0">Mais comment fait-on cela ? est-ce de la magie? ...de la magie noir... Mouhahaha </p>
+        <div class="alert alert-light" role="alert ">
+            Et si tu y regardes de plus près, nous sommes entourer par une force mystérieuse qui nous repousse des bords
+        </div>
+    </section>
+    <!-- Fin du container 2 -->
+    <!-- Début du container 3 -->
+    <section class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col 4">
+                <p class="fs-2" > Une liste de chose a faire</p>
+                <ul class="list-group">
+                    <li class="list-group-item active" aria-current="true">Cras justo odio</li>
+                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                    <li class="list-group-item">Morbi leo risus Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.  <span
+                        class="badge bg-success">Et
+                        ceci est un badge </span></li>
+                    
+                  </ul>
+            </div>
+            <div class="col 4">
+                <p class="fs-3 mt-5">Les cartes ne sont pas faites que pour jouer</p>
+                <div class="card bg-secondary">
+                    <img src="./assets/img/téléchargement.jfif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text fs-3 text-white">L'As de trèfle qui pique ton coeur </p>
+                      <span class="fs-4 text-white">Caroline</p>
+                    </div>
+                  </div>
+
+            </div>
+            <div class="col 4">
+                <p class="fs-2">J'èspère que ton apprentissage de bootstrap évolue aussi vite </p>
+                <div class="progress my-3">
+                    <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="progress my-3">
+                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="progress my-3">
+                    <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="progress my-3">
+                    <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <div class="progress my-3">
+                    <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin du container 3 -->
+
+    <!--Début du Footer  -->
+    <footer class="container-fluid mt-5 ">
+        <div class="alert alert-primary mx-5" role="alert">
+            <span class="text-primary">Akhtar Mohammed fin de l'exo Bootstrap</span>
+          </div>    
+    </footer>
+    
+</body>
+
+</html>
